@@ -24,8 +24,8 @@ resource "google_compute_instance" "elk" {
 
   network_interface {
     # network = "default"
-    network    = "${google_compute_network.vpc1.self_link}"
-    subnetwork = "${google_compute_subnetwork.subnet1.self_link}"
+    network    = "${var.elk_instance_vpc_name}"
+    subnetwork = "${var.elk_instance_subnet_name}"
 
 
     access_config {
