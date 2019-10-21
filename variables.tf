@@ -1,0 +1,10 @@
+variable "credentials" {}
+variable "gcp_project" {}
+variable "region" {}
+variable "elk_instance_ip_name" {}
+variable "elk_instance_ip_region" {}
+variable "elk_instance_name" {}
+variable "elk_instance_machine_type" {}
+variable "elk_instance_zone" {}
+variable "elk_instance_vpc_name" {}
+variable "elk_instance_subnet_name" {}
